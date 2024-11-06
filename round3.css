@@ -10,8 +10,8 @@ body {
 	justify-content: center;
 	height: 100vh;
 	overflow: hidden;
-	margin-top: 350px;
-	display: flex;
+	margin: 0;
+	padding: 0;
 }
 
 .quiz-result {
@@ -21,47 +21,33 @@ body {
 	background-color: #ffffff;
 	border-radius: 8px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	flex-direction: column;
+	width: 90%;
+	max-width: 700px;
 }
 
 h1 {
 	color: #333;
 	font-size: 2.5rem;
-	margin-left: 5rem;
-	margin-top: 0;
-}
-
-#highScore {
-	display: flex;
-	color: #666;
-	padding: 1rem;
+	margin: 0 2rem;
 	text-align: center;
-	margin-left: 14rem;
-	height: 60px;
-	width: 180px;
-	max-width: 600px;
-	font-size: small;
-	font-size: 1rem;
-	border-radius: 39px;
-	border: 0px;
-	margin-bottom: 5rem;
-	margin-top: 0px;
 }
 
+#highScore,
 #msg {
 	display: flex;
 	color: #666;
 	padding: 1rem;
 	text-align: center;
-	margin-left: 13rem;
 	height: 60px;
-	width: 180px;
+	width: 100%;
 	max-width: 600px;
-	font-size: small;
 	font-size: 1rem;
 	border-radius: 39px;
-	border: 0px;
-	margin-bottom: 4rem;
+	border: 0;
+	margin: 0 auto 2rem auto;
 }
+
 .img {
 	padding-bottom: 1px;
 	margin-left: 0px;
@@ -76,36 +62,35 @@ button {
 	border-radius: 5px;
 	cursor: pointer;
 	margin-top: 20px;
+	width: 100%;
+	max-width: 250px;
+	margin: 0 auto;
 }
 
 button:hover {
 	background-color: #0056b3;
 }
 
-#subnav {
-	background-color: inherit;
-}
-
+#subnav,
 .score {
 	background-color: inherit;
-	width: 10rem;
-	height: 3rem;
-	margin-right: 3.5;
+	width: 100%;
 }
 
 .quiz-container {
 	border-radius: 10px;
 	box-shadow: 0 10px 2px rgba(100, 100, 100, 0.15);
-	width: 700px;
+	width: 90%;
+	max-width: 700px;
 	overflow: hidden;
-	height: 1000px;
+	height: auto;
 	text-align: center;
 	margin-top: 60px;
-	margin-bottom: 20rem;
+	margin-bottom: 10rem;
 }
 
 .quiz-header {
-	padding: 4rem;
+	padding: 2rem;
 	margin-top: 1px;
 	text-align: center;
 }
@@ -115,11 +100,11 @@ h2 {
 	text-align: center;
 	margin: 0;
 	height: 60px;
-	width: 180px;
+	width: 100%;
 	max-width: 600px;
 	font-size: small;
 	border-radius: 29px;
-	border: 0px;
+	border: 0;
 	justify-content: center;
 	margin-bottom: 4rem;
 }
@@ -132,9 +117,11 @@ ul {
 ul li {
 	font-size: 1.2rem;
 	margin: 1rem 0;
-	width: 570px;
+	width: 100%;
+	max-width: 570px;
 	height: 40px;
 	text-align: left;
+	cursor: pointer;
 }
 
 ul li label {
@@ -145,41 +132,31 @@ button {
 	background-color: #9337be;
 	color: #fff;
 	border: none;
-	width: 15rem;
+	width: 100%;
+	max-width: 250px;
 	cursor: pointer;
 	font-size: 1rem;
 	font-family: inherit;
 	padding: 1rem;
 	text-align: center;
 	border-radius: 20px;
+	margin: 1rem auto;
 }
 
-#levelUpBtn {
-	background-color: #9337be;
-	color: #fff;
-	border: none;
-	width: 15rem;
-	cursor: pointer;
-	font-size: 1rem;
-	font-family: inherit;
-	padding: 1rem;
-	text-align: center;
-	border-radius: 20px;
-	margin-left: 70px;
-}
-
+#levelUpBtn,
 #startBtn {
 	background-color: #9337be;
 	color: #fff;
 	border: none;
-	width: 15rem;
+	width: 100%;
+	max-width: 250px;
 	cursor: pointer;
 	font-size: 1rem;
 	font-family: inherit;
 	padding: 1rem;
 	text-align: center;
 	border-radius: 20px;
-	margin-left: 180px;
+	margin: 1rem auto;
 }
 
 button:hover {
@@ -195,9 +172,10 @@ ul li:hover {
 	background-color: #f3f0f5;
 	border-radius: 30px;
 }
+
 #question {
 	height: 80px;
-	width: 30rem;
+	width: 90%;
 	max-width: 600px;
 	color: #fff;
 	background-color: #9337be;
@@ -205,31 +183,6 @@ ul li:hover {
 	border: 0px;
 	padding: 20px 24px;
 	font-family: inherit;
-}
-
-.submitBtn Button:focus {
-	outline: none;
-	background-color: #9337be;
-}
-
-.submitBtn button:hover {
-	background-color: #401354;
-	align-content: space-between;
-}
-
-.btn_best button {
-	background-color: inherit;
-	color: #fff;
-	border: 1px solid #9337be;
-	width: 500px;
-	height: 60px;
-	display: block;
-	border-radius: 20px;
-	margin-top: 30px;
-	margin-left: 95px;
-	margin-bottom: 0%;
-	font-family: inherit;
-	margin-inline: auto;
-	justify-content: center;
-	cursor: none;
+	margin: 0 auto;
+	margin-bottom: 5rem;
 }
