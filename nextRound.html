@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./next.css" />
+		<script defer src="./next.js"></script>
+
+		<title>Next Round</title>
+	</head>
+	<body>
+		<h1>Congratulations!</h1>
+		<p id="p1">Get ready for the next round of questions!</p>
+
+		<button id="StartNextRound">Start Next Round</button>
+
+		<div id="questionText"></div>
+
+		<script>
+			document.addEventListener('DOMContentLoaded', function () {
+				const startNextRoundButton = document.getElementById('StartNextRound');
+				if (startNextRoundButton) {
+					startNextRoundButton.addEventListener('click', function () {
+						window.location.href = 'round2.html';
+					});
+				} else {
+					console.error('Button with id "startNextRound" not found!');
+				}
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,87 @@
+/* Ref: ChatGPT */
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Body Flex Layout */
+body {
+	background-color: #cfbbbb;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center; /* Centers content horizontally */
+}
+
+/* Heading styling */
+h1 {
+	font-size: 5vw; /* Use relative size for responsiveness */
+	position: relative;
+	z-index: 1;
+	margin-top: auto;
+	text-align: center;
+	flex-direction: column;
+}
+
+/* Heading 3 styling */
+h3 {
+	margin-top: 5rem;
+	text-align: center;
+	margin-bottom: 3rem; /* Adjust bottom margin */
+	font-size: 1.5rem;
+}
+
+/* Button styling */
+button {
+	background-color: #9337be;
+	color: white;
+	border: none;
+	width: 60%; /* Make button width relative */
+	max-width: 250px; /* Set a max-width for larger screens */
+	cursor: pointer;
+	font-size: 1rem;
+	font-family: inherit;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 2rem; /* Adjusted top margin */
+}
+
+/* Button hover effect */
+button:hover {
+	background-color: #732d91;
+}
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+	h1 {
+		font-size: 6vw; /* Increase font size for smaller screens */
+	}
+	input {
+		width: 80%; /* Adjust input width for smaller screens */
+	}
+	button {
+		width: 80%; /* Adjust button width for smaller screens */
+	}
+}
+
+/* Media Queries for Even Smaller Screens (Mobile) */
+@media (max-width: 480px) {
+	h1 {
+		font-size: 8vw; /* Further increase font size for small screens */
+	}
+	input {
+		width: 90%; /* Full width for input on small devices */
+	}
+	button {
+		width: 90%; /* Full width for button on small devices */
+	}
+	h3 {
+		margin-bottom: 2rem; /* Reduced margin for smaller screens */
+	}
+}
