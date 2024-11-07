@@ -1,14 +1,20 @@
-# Project-Proposal_My-Quiz-Game
+## Project-Proposal_My-Quiz-Game
+
+---
 
 #### Project Description
 
 The Quiz Game is an engaging and interactive application designed to challenge players' knowledge across various topics in a fun and user-friendly environment. The game aims to provide an enjoyable experience for users of all ages, encouraging learning through gameplay.
+
+---
 
 #### Wire Frames
 
 ![image](./Screenshot%202024-11-05%20at%205.04.25 PM.png)
 ![image](./Screenshot%202024-11-05%20at%205.14.36 PM.png)
 ![image](./Screenshot%202024-11-06%20at%209.41.16 AM.png)
+
+---
 
 #### User Stories
 
@@ -21,6 +27,8 @@ The Quiz Game is an engaging and interactive application designed to challenge p
 - The user will be notified when the game ends.
 - The user will see the total number of correct and incorrect answers they provided during the game.
 
+---
+
 #### MVP Goals
 
 • Create an intro page to start the game.
@@ -30,7 +38,7 @@ The Quiz Game is an engaging and interactive application designed to challenge p
 • The user will have the option to restart the game after a win or loss.
 • The UI will be engaging but unobtrusive, enhancing the overall gaming experience.
 
-+++++++++++++++++++++++++++++++++=
+---
 
 #### Stretch Goals
 
@@ -39,7 +47,18 @@ The Quiz Game is an engaging and interactive application designed to challenge p
 • As a player, I would like to play this game online so that I don't have to have my challenger sitting next to me.
 • As a player who wants to dominate the quiz wizard, I want to become the ultimate Wikipedia so I can beat all of my opponents
 
-# Reference:
+---
+
+#### References:
+
+- https://generalassembly.instructure.com/courses/573/modules
+- https://www.w3schools.com/
+- https://developer.mozilla.org/en-US/
+- https://chatgpt.com/
+
+* https://www.geeksforgeeks.org/
+
+---
 
 #### Timeline - Daily Accountability
 

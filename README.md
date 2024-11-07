@@ -1,5 +1,7 @@
 # My Quiz Game
 
+---
+
 ### Project Name - My Quiz Game:
 
 A simple, interactive JavaScript-based quiz game where users can test their knowledge on various topics.
@@ -18,32 +20,50 @@ https://extraordinary-elf-315c91.netlify.app/
 
 I built this quiz game as a fun way to practice JavaScript and enhance my understanding of working with DOM manipulation, and creating interactive user interfaces. The game also allows players to test their knowledge on a variety of topics while interacting with a simple and intuitive interface.
 
-#### Technologies and Libraries Used
+---
 
-HTML5 - Markup language for structuring the content.
-CSS3 - Styling the page and making the user interface visually appealing.
-JavaScript - Logic and functionality behind the quiz game.
-LocalStorage - Storing the player's name to persist data across sessions.
+### MVP Goals
 
-#### Libraries:
+• Create an intro page to start the game.
+• Each round will consist of five questions.
+• Each question will have three possible answers.
+• The game will confirm whether the user's answer is correct or incorrect. A message with a GIF will appear on the screen for each outcome.
+• The user will have the option to restart the game after a win or loss.
+• The UI will be engaging but unobtrusive, enhancing the overall gaming experience.
 
-None (This project is built using vanilla JavaScript, CSS, and HTML)
+---
+
+#### Stretch Goals
+
+• As a player, I would like a victory animation when I win the game, so that I feel good about my victory!
+• As a player, I would like to hear an audible sound when I mark a game box so that I know my selection worked.
+• As a player, I would like to play this game online so that I don't have to have my challenger sitting next to me.
+• As a player who wants to dominate the quiz wizard, I want to become the ultimate Wikipedia so I can beat all of my opponents
+
+---
+
+#### Technologies Used
+
+- HTML5
+- CSS
+- JavaScript
 
 ---
 
 #### Key Variables
 
-#### currentQuiz:
+##### currentQuiz:
 
 - Tracks which question the player is currently on.
 
-#### score:
+##### score:
 
 - Keeps track of the player's score.
 
 ##### javascript
 
-const quizData = [
+##### const quizData = [
+
 {
 question: 'What does CSS stand for?',
 a: 'Cascading Simple Sheets',
@@ -172,4 +192,4 @@ Clean, user-friendly interface.
 
 ### Special Thanks
 
-###### "Thank you to our instructors for your invaluable help and support. We truly appreciate your guidance and dedication."
+#### "Thank you to our instructors for your invaluable help and support. We truly appreciate your guidance and dedication."
